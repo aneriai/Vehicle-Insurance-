@@ -1,0 +1,2 @@
+[ 2026-06-20 15:58:01,354 ] root - INFO - unsupported operand type(s) for +: 'int' and 'str'
+[ 2026-06-20 15:58:01,354 ] root - ERROR - Error occurred in python script: [D:\Docker\Vehicle-Insurance-\demo.py] at line number [12]: unsupported operand type(s) for +: 'int' and 'str'
