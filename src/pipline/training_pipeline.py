@@ -24,8 +24,6 @@ from src.entity.artifact_entity import (DataIngestionArtifact,
                                         ModelEvaluationArtifact,
                                         ModelPusherArtifact)
 
-
-
 class TrainPipeline:
     def __init__(self):
         self.data_ingestion_config = DataIngestionConfig()
@@ -34,7 +32,6 @@ class TrainPipeline:
         self.model_trainer_config = ModelTrainerConfig()
         self.model_evaluation_config = ModelEvaluationConfig()
         self.model_pusher_config = ModelPusherConfig()
-
 
     
     def start_data_ingestion(self) -> DataIngestionArtifact:
